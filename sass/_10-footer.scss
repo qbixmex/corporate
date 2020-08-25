@@ -1,0 +1,21 @@
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+
+    p {
+        margin-bottom: 0;
+
+        &:first-child {
+            margin-bottom: 10px;
+        }
+    }
+
+    .fa-copyright {
+        color: $blue;
+    }
+
+    .fa-heart-o {
+        color: #f00;
+    }
+}

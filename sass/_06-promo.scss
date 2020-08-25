@@ -1,0 +1,26 @@
+#promo {
+    min-height: 768px;
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+        url(../images/promo.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    font-size: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .discount {
+        font-weight: 600;
+        color: hsl(90, 100, 50);
+        font-size: 3.5rem;
+    }
+}
